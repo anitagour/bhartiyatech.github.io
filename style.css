@@ -1,0 +1,790 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* :root {
+    --primary: rgb(8, 151, 94);
+}
+
+.my_class {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: var(--primary);
+} */
+
+/* body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M171.778%2c588.531C219.521%2c590.932%2c268.428%2c568.395%2c289.905%2c525.688C309.874%2c485.979%2c287.248%2c442.141%2c264.642%2c403.872C242.587%2c366.536%2c215.141%2c325.968%2c171.778%2c325.714C128.142%2c325.459%2c97.287%2c364.134%2c77.011%2c402.774C58.406%2c438.229%2c54.384%2c479.092%2c72.58%2c514.759C92.651%2c554.101%2c127.668%2c586.313%2c171.778%2c588.531' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M423.51750120785294 425.7371396986655L455.28304699134037 575.8857645825748 556.5338871360548 487.86975205202384z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M10.814%2c156.799C28.728%2c155.979%2c42.418%2c143.274%2c52.015%2c128.125C62.566%2c111.47%2c72.895%2c91.26%2c63.208%2c74.088C53.425%2c56.746%2c30.677%2c53.707%2c10.814%2c55.089C-6.432%2c56.289%2c-21.134%2c65.943%2c-30.309%2c80.595C-40.193%2c96.379%2c-46.331%2c115.835%2c-37.487%2c132.224C-28.292%2c149.262%2c-8.527%2c157.685%2c10.814%2c156.799' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M571.248%2c567.251C607.92%2c566.733%2c646.987%2c559.298%2c666.103%2c527.998C685.87%2c495.632%2c678.854%2c454.898%2c659.944%2c422.024C640.974%2c389.047%2c609.263%2c364.575%2c571.248%2c363.099C530.613%2c361.521%2c490.53%2c379.678%2c469.758%2c414.638C448.567%2c450.303%2c448.666%2c496.197%2c471.639%2c530.742C492.627%2c562.302%2c533.35%2c567.786%2c571.248%2c567.251' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M647.848%2c584.598C702.092%2c582.457%2c746.156%2c543.527%2c770.615%2c495.063C792.685%2c451.334%2c787.031%2c400.384%2c762.097%2c358.222C737.658%2c316.899%2c695.68%2c291.595%2c647.848%2c287.475C590.366%2c282.524%2c524.838%2c286.626%2c493.537%2c335.092C460.41%2c386.385%2c474.946%2c453.535%2c507.063%2c505.466C537.412%2c554.537%2c590.195%2c586.874%2c647.848%2c584.598' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1099.8092588165853 270.6861062212147L1141.5743826210942 217.22918549012533 1040.5064396222058 181.30996014890644z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+} */
+
+.nav {
+    background-color: rgb(34, 34, 87);
+}
+
+.img1 {
+    background-image: url('bg.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.kuchbhi {
+    position: relative;
+}
+
+.kuch-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+}
+
+.kuch-content h1,
+.kuch-content p {
+    color: #fff !important;
+}
+
+@media(max-width: 300px) {
+
+    .kuch-content h1,
+    .kuch-content p {
+        font-size: 12px;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 100px
+}
+
+.content {
+    color: rgb(26, 26, 142);
+    justify-content: center;
+    text-align: center;
+    transition: 0.5;
+
+
+}
+
+p {
+    color: black;
+}
+
+p:hover {
+    color: blue;
+}
+
+.box {
+
+    border-top: 3px solid black;
+    background-color: white;
+    transition: .5s;
+    box-shadow: 0 0 12px -9px;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: rgb(0 0 0 / 30%) 0 0 40px;
+
+}
+
+/* BOX-1 */
+.box1 {
+
+    position: relative;
+    background-color: white;
+    transition: .5s;
+    box-shadow: 0 0 12px -9px;
+}
+
+.box1:hover {
+    transform: translateY(-5px);
+    box-shadow: rgb(0 0 0 / 30%) 0 0 40px;
+
+}
+
+.box1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: .5s;
+
+}
+
+.box1:hover::before {
+    width: 100%;
+}
+
+.box1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: .5s;
+
+}
+
+.box1:hover::after {
+    width: 100%;
+}
+
+/* IMAGE CONTAINER */
+
+.img-container {
+    background-image: url('IMAGE/mybackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.services-section {
+    background-image: url('IMAGE/bg-training.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.our {
+    color: navy;
+}
+
+span {
+    color: orangered;
+}
+
+/* PROJECT SECTION */
+.project-section {
+
+
+
+    background-color: rgb(246, 103, 51);
+    color: white;
+
+}
+
+.lets {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+.fa-comment {
+    font-size: 60px;
+}
+
+/* ICON  */
+.icon a {
+    position: fixed;
+    bottom: 10%;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: #25D366;
+    transition: .5s;
+    animation: ani 2s infinite;
+    text-decoration: none;
+
+}
+
+@keyframes ani {
+
+
+
+
+    0%,
+    100% {
+        transform: translateY(-50%);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+}
+
+/* WE USE  */
+.background-img {
+    background-image: url('IMAGE/BG3.jpeg');
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.border {
+
+
+    background-color: rgb(6, 6, 107);
+}
+
+.grand {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 img {
+    border-radius: 50%;
+
+}
+
+.box6 {
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+
+.text {
+    color: white;
+
+
+}
+
+/* Explore Our Top Ranked Programs  */
+.aclour a {
+    margin-bottom: 20px;
+    padding: 13px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.bclour a {
+    margin-bottom: 10px;
+    padding: 13px;
+    color: white;
+    background-color: rgb(28, 28, 81);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/* our services section */
+.java {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.java:hover {
+    background-color: rgb(252, 124, 27);
+    color: white;
+}
+
+.java:hover .second {
+    display: inline-block;
+}
+
+.java:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* DIGITAL MARKETTING */
+
+.digital {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.digital:hover {
+    background-color: rgb(87, 36, 36);
+    color: white;
+}
+
+.digital:hover .second {
+    display: inline-block;
+}
+
+.digital:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* WEDSITE TARNING */
+.website {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.website:hover {
+    background-color: rgb(79, 197, 244);
+    color: white;
+}
+
+.website:hover .second {
+    display: inline-block;
+}
+
+.website:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* PHP DEVLOPER */
+.php {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.php:hover {
+    background-color: rgb(70, 70, 226);
+    color: white;
+}
+
+.php:hover .second {
+    display: inline-block;
+}
+
+.php:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* .NET DEVELOPMENT */
+.net {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.net:hover {
+    background-color: rgb(220, 74, 122);
+    color: white;
+}
+
+.net:hover .second {
+    display: inline-block;
+}
+
+.net:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* Python delopment */
+.pytm {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pytm:hover {
+    background-color: orange;
+    color: white;
+}
+
+.pytm:hover .second {
+    display: inline-block;
+}
+
+.pytm:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* ANDROID DEVELOPMENT */
+.Android {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Android:hover {
+    background-color: rgb(157, 222, 59);
+    color: white;
+}
+
+.Android:hover .second {
+    display: inline-block;
+}
+
+.Android:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* E-COMMERCE */
+.e-commerce {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.e-commerce:hover {
+    background-color: rgb(233, 39, 104);
+    color: white;
+}
+
+.e-commerce:hover .second {
+    display: inline-block;
+}
+
+.e-commerce:hover .first {
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+/* For Queries, Feedback & Assistance  */
+
+.support {
+    background-image: url('IMAGE/bhartiya-tech-imgaes.jpg');
+    width: 90%;
+    height: 50%;
+    padding-top: 25p;
+    margin-left: 5%;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+
+
+.call-us {
+    /* padding-top: 20px;  */
+    margin-top: 3%;
+    text-align: start;
+    margin-left: 20%;
+}
+
+.email {
+    margin-top: -6%;
+    text-align: center;
+    margin-left: 50%;
+
+}
+
+/* FOOTER-SECTION */
+.footer-section {
+    background-color: rgb(10, 10, 32);
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    height: 80%;
+    padding-bottom: 40px;
+}
+
+.sevices1 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.course1 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.whatsapp {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    color: navy;
+    text-align: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 3px;
+
+}
+
+.sub {
+    background-color: rgb(10, 10, 94);
+    border: none;
+    padding-left: 96px;
+    padding-right: 96px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bhartiya-tech {
+    background-color: rgb(6, 6, 27);
+    padding: 10px;
+    color: white;
+}
+
+.career a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+/* ABOUT US BHARTIYA TECH */
+.about-section {
+    background-image: url('IMAGE/about-us-banner-2.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 100px;
+
+}
+
+.aboutus {
+    color: white;
+    margin-left: 80px;
+    margin-top: 100px;
+    padding: 27px;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.arrow {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.small {
+    background-image: url('IMAGE/about-us-small\ 2.jpg');
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.overview {
+    font-size: 20px;
+    color: grey;
+}
+
+/* We Expertise In */
+.WeExpertise {
+    color: black;
+}
+
+.mobile {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 100px
+}
+
+.learn {
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+/* VISION MISSION */
+.vision-mission {
+    background-image: url('IMAGE/our-work-speaks-for-itself-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+
+.visi {
+    color: rgb(30, 30, 139);
+    margin-left: 200px;
+}
+
+.miss {
+    color: rgb(230, 77, 22);
+    margin-left: 200px;
+}
+
+.parag {
+    color: rgb('53,51,51,0.911');
+    margin-left: 200px;
+}
+
+.overview1 {
+    font-size: 15px;
+    color: grey;
+}
+
+/* about ka footer section */
+
+.footer-section1 {
+    background-color: rgb(10, 10, 32);
+    color: white;
+    padding: 10px;
+    /* margin-top: 50px; */
+    height: 80%;
+    padding-bottom: 40px;
+}
+
+
+/* INTERNSHIP SECTION  */
+.img2 img {
+    /* background-image: url('IMAGE/internship-training-banner.jpg'); */
+    /* width: 100%; */
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.intern {
+    color: white;
+    margin-left: 80px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/* CARD-SECTION */
+.marketing-hadding {
+    background-color: rgb(0, 33, 71);
+    color: white;
+
+}
+
+.card1 {
+    overflow: hidden;
+}
+
+.card-footer a {
+    text-decoration: none;
+    background-color: rgb(111, 111, 240);
+}
+
+
+/* INTERNSHIP SECTION */
+.intenship-section {
+    background-image: url('IMAGE/internship-training-banner.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.inte {
+    color: rgb(247, 93, 37);
+}
+
+.markting-heading {
+    background-color: rgb(15, 15, 53);
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.card5 {
+    overflow: hidden;
+}
+
+.card-footer a {
+    text-decoration: none;
+    background-color: rgb(111, 111, 240);
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+.card6 {
+    margin-left: 30px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+
+.card7 {
+    background-color: white;
+    box-shadow: 0 0 12px -9px;
+    box-shadow: rgb(0 0 0 / 30%)0 0 40px;
+}
+
+
+/* Contact Us section */
+
+.contactus-section {
+    background-image: url('IMAGES/bg-header-01.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px
+}
+
+.contect-information {
+    background-color: #35477D;
+    height: 80vh;
+    width: 100%;
+}
+
+.info {
+    color: #d9dbdf;
+    margin-left: 40px;
+    padding-top: 30px;
+}
